@@ -1,4 +1,4 @@
-﻿namespace DSA.Arrays
+﻿namespace DSA.GeeksforGeeks.Amazon.Arrays
 {
     /*
         Problem Statement:

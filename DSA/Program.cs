@@ -1,4 +1,4 @@
-﻿using DSA.Arrays;
+﻿using DSA.Leetcode.Algorithm_I.Day1;
 using System;
 
 namespace DSA
@@ -7,11 +7,10 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-
-            Replace0With5 replace = new Replace0With5();
-            int data  =  replace.ConvertFive(1004);
-
-            Console.WriteLine(data);
+            int[] array = { -1, 0, 3, 5, 9, 12 };
+            BinarySearch704 binarySearch704 = new BinarySearch704();
+            int result = binarySearch704.Search(array, 2);
+            Console.WriteLine(result);
             Console.WriteLine("Hello World!");
         }
     }
