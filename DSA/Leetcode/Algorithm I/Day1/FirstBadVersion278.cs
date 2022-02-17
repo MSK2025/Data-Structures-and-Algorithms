@@ -21,6 +21,7 @@
    */
     public class FirstBadVersion278
     {
+        // C# code is not working, is not recognizing framework method. 
         public int FirstBadVersion(int n)
         {
             if (n == 1 && isBadVersion(n))

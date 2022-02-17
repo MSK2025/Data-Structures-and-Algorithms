@@ -7,8 +7,9 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            FirstBadVersion278 firstBadVersion278 = new FirstBadVersion278();
-            int result = firstBadVersion278.FirstBadVersion(2126753390);
+            int[] array = { 1, 3,5,6};
+            SearchInsertPosition35 searchInsertPosition35 = new SearchInsertPosition35();
+            int result = searchInsertPosition35.SearchInsert(array, 7);
 
             Console.WriteLine(result);
             Console.WriteLine("Hello World!");
