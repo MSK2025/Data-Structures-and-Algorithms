@@ -7,9 +7,9 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            int[] array = { -1, 0, 3, 5, 9, 12 };
-            BinarySearch704 binarySearch704 = new BinarySearch704();
-            int result = binarySearch704.Search(array, 2);
+            FirstBadVersion278 firstBadVersion278 = new FirstBadVersion278();
+            int result = firstBadVersion278.FirstBadVersion(2126753390);
+
             Console.WriteLine(result);
             Console.WriteLine("Hello World!");
         }
